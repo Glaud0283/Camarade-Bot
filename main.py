@@ -1,3 +1,5 @@
+print(__import__('sys').version_info)
+
 from discord.ext import commands,tasks
 from embeds import *
 import sqlite3
@@ -309,5 +311,5 @@ async def guild_durum(ctx):
   for guild in client.guilds:
     print(guild.name+": "+str(len(guild.members)))
 presence.start()
-keep_alive.keep_alive()
-client.run("NTA2MjAyNTk3NDczMTI0MzUy.Xt-Zdw.VFosmR2UMVhlEStA363rSLYbX1U",reconnect=True)
+
+client.run("NTA2MjAyNTk3NDczMTI0MzUy.W9Yb6A.Oy2cvZH2m0UcKNdjcpiaoNlkmXo",reconnect=True)
